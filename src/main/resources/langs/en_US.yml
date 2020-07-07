@@ -562,8 +562,8 @@ interaction:
 
 music:
     internal:
-        songWasSkipped: '[:title](:url) requested by :author was skipped.'
-        nowPlayingSong: 'Now playing: [:title](:link)\n`:duration` at `:volume%` volume - Requested by :requester'
+        songWasSkipped: '[:title](:url) được yêu cầu bởi :author đã bị bỏ qua.'
+        nowPlayingSong: 'Đang chơi: [:title](:link)\n`:duration` tại `:volume%` volume - Được yêu cầu bởi :requester'
         nowPlayingPlaylist: 'The **:playlistName** playlist has been added to the queue with `:playlistSize` tracks!'
         nowPlaying: 'Now playing: [:title](:link)\n`:duration` at `:volume%` volume - Requested by :requester'
         queueHasEnded: 'Queue has ended, leaving voice.'
@@ -634,7 +634,7 @@ music:
         paused: 'The music has been `paused`'
 
     PlayCommand:
-        addedSong: ':user has added [:title](:url) to the queue. There are `:queueSize` song(s) ahead of it in the queue.'
+        addedSong: ':user đã thêm [:title](:url) vào danh sách phát. Có `:queueSize` bài hát ở trước hàng đợi.'
         addedSongsFromPlaylist: ':user has added :songs songs from the [:title](:url) playlist to the queue. There are `:queueSize` song(s) ahead of it in the queue.'
         session:
             title: 'Results for {0}'
